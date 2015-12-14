@@ -1,0 +1,11 @@
+{
+    "name": "benrowe/laravel-filesystem-url",
+    "description": "A laravel component for generating public endpoints for assets within the filesystem",
+    "authors": [
+        {
+            "name": "Ben Rowe",
+            "email": "ben.rowe.83@gmail.com"
+        }
+    ],
+    "require": {}
+}
