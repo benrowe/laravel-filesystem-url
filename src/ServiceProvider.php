@@ -11,6 +11,7 @@
 namespace Benrowe\Laravel\Url;
 
 use Illuminate\Support\ServiceProvider as LaravelServiceProvider;
+use Blade;
 
 /**
  * Url Service Provider
