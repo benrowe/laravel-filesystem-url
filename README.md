@@ -1,4 +1,6 @@
 # Laravel Filesystem Url
+[![Build Status](https://travis-ci.org/benrowe/laravel-filesystem-url.svg?branch=master)](https://travis-ci.org/benrowe/laravel-filesystem-url)
+
 Provides a url generation service for your configured filesystems
 
 This extends from laravel's filesystem config.
