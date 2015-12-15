@@ -77,7 +77,7 @@ class UrlTest extends PHPUnit_Framework_TestCase
         $this->assertSame(null, $this->url->url('images/img.jpg', 'disabled', true));
 
         // notpublic
-        $this->setExpectedException('Exception');
+        $this->setExpectedException('InvalidArgumentException');
         $this->url->url('doesntexist', 'notpublic');
     }
 }

@@ -10,7 +10,7 @@
 namespace Benrowe\Laravel\Url;
 
 use Illuminate\Http\Request;
-use Exception;
+use InvalidArgumentException as Exception;
 
 /**
  * URI Service that generates a public endpoint from the requested filesystem
