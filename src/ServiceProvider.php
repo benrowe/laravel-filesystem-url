@@ -29,7 +29,7 @@ class ServiceProvider extends LaravelServiceProvider
     public function boot()
     {
         // blade directives
-        Blade::directives(
+        Blade::directive(
             'file',
             function ($expression) {
                 return '<?php
