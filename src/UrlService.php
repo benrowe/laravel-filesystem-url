@@ -19,7 +19,6 @@ use InvalidArgumentException as Exception;
  * @package    Benrowe\Laravel\Url
  * @author     Ben Rowe <ben.rowe.83@gmail.com>
  * @copyright  Ben Rowe <ben.rowe.83@gmail.com>
- * @license    http://www.opensource.org/licenses/BSD-3-Clause  The BSD 3-Clause License
  * @link       https://github.com/benrowe/laravel-filesystem-url
  */
 class UrlService
@@ -56,7 +55,7 @@ class UrlService
      * Generate a complete URI
      *
      * @param  string $path the relative path of the resource
-     * @param  [type] $disk [description]
+     * @param  string $disk the specific disk to reference
      * @param boolean $secure force the url to be secure or not, if not defined uses current request
      * @return string
      */
@@ -105,8 +104,8 @@ class UrlService
     /**
      * Standardise the url configuration for use later
      *
-     * @param  [type] $diskConfig [description]
-     * @return [type]             [description]
+     * @param  array $diskConfig url config for the disk
+     * @return array
      */
     private function normaliseConfig($diskConfig)
     {
