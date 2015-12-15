@@ -1,11 +1,25 @@
 {
     "name": "benrowe/laravel-filesystem-url",
     "description": "A laravel component for generating public endpoints for assets within the filesystem",
+    "keywords": ["laravel", "url"],
+    "homepage": "https://github.com/benrowe/laravel-filesystem-url",
+    "license": "BSD-3-Clause",
     "authors": [
         {
             "name": "Ben Rowe",
             "email": "ben.rowe.83@gmail.com"
         }
     ],
-    "require": {}
+    "require": {
+        "php": ">=5.4",
+        "laravel/framework": "5.1.*"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "~4.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Benrowe\\Laravel\\Url\\": "src/"
+        }
+    }
 }
