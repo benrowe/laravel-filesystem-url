@@ -32,7 +32,7 @@ class ServiceProvider extends LaravelServiceProvider
     public function register()
     {
         $this->app->bindShared('filesystem-url', function ($app) {
-            return new UrlService(config('filesystems'), $app['request']);
+            return new UrlService(config('filesystems'), $app['request']->secure());
         });
         $this->app->alias('filesystem-url', 'Benrowe\Laravel\Url\UrlService');
     }
