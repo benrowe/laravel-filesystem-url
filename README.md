@@ -60,12 +60,14 @@ It can be accessed in the following ways:
 ### Facade
 
     Url::url('path/to/file.jpg', 'local', $forceSecure);
+    // outputs as http://localhost/assets/path/to/file.jpg
 
 ### Blade Directive
 
 The package provides a convenient blade directive
 
     @url('path/to/file.jpg', 'diskname')
+    // the blade directive will trap exceptions if the disk doesn't exist, or is not configured correctly.
 
 ## Todo
 
