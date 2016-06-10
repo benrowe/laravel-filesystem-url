@@ -1,5 +1,12 @@
 # Laravel Filesystem Url
-[![Build Status](https://travis-ci.org/benrowe/laravel-filesystem-url.svg?branch=master)](https://travis-ci.org/benrowe/laravel-filesystem-url)
+
+[![Build Status](https://travis-ci.org/benrowe/laravel-filesystem-url.svg?branch=master&format=flat-square)](https://travis-ci.org/benrowe/laravel-filesystem-url)
+[![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/benrowe/laravel-filesystem-url/badges/quality-score.png?b=master&format=flat-square)](https://scrutinizer-ci.com/g/benrowe/laravel-filesystem-url/?branch=master)
+[![Total Downloads](https://poser.pugx.org/benrowe/laravel-filesystem-url/d/total.svg?format=flat-square)](https://packagist.org/packages/benrowe/laravel-filesystem-url)
+[![Latest Stable Version](https://poser.pugx.org/benrowe/laravel-filesystem-url/v/stable.svg?format=flat-square)](https://packagist.org/packages/benrowe/laravel-filesystem-url)
+[![Latest Unstable Version](https://poser.pugx.org/benrowe/laravel-filesystem-url/v/unstable.svg?format=flat-square)](https://packagist.org/packages/benrowe/laravel-filesystem-url)
+[![License](https://poser.pugx.org/benrowe/laravel-filesystem-url/license.svg?format=flat-square)](https://packagist.org/packages/benrowe/laravel-filesystem-url)
+
 
 Provides a url generation service for your configured filesystems
 
