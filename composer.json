@@ -3,7 +3,7 @@
     "description": "A laravel component for generating public endpoints for assets within the filesystem",
     "keywords": ["laravel", "url"],
     "homepage": "https://github.com/benrowe/laravel-filesystem-url",
-    "license": "BSD-3-Clause",
+    "license": "MIT",
     "authors": [
         {
             "name": "Ben Rowe",
